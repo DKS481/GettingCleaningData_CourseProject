@@ -1,5 +1,5 @@
 # DKS481's Course Project for Johns Hopkins Getting and Cleaning Data Coursera Course
-# 22 February 2014
+
 getwd()
 # Part 1: Read the training sets.
 trainData <- read.table("./data/train/X_train.txt")
@@ -24,7 +24,7 @@ joinData <- joinData[, meanStdIndices]
 
 # Part 5: Clean data set labels by removing symbols and capitilizing names.
 names(joinData) <- gsub("\\(\\)", "", features[meanStdIndices, 2])
-names(joinData) <- gsub("mean", "Mean", names(joinData)) 
+names(joinData) <- gsub("mean", "Mean", names(joinData))  
 names(joinData) <- gsub("std", "Std", names(joinData)) 
 names(joinData) <- gsub("-", "", names(joinData))
 
@@ -74,3 +74,6 @@ write.table(result, "means_data.txt", row.names=FALSE)
 # Example of how to read in the text files
 # example <- read.table("./means_data.txt")
 # example[1:12, 1:5]
+
+
+# D Smith 22 February 2015
