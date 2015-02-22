@@ -5,8 +5,8 @@ Johns Hopkins Getting and Cleaning Data Coursera Course Project
 This repo contains the files and folders for the course project turn in.
 
 Descritions:
-* CodeBook: Explains the data, variables, transformations, and work performed to clean up data
-* Run_Analysis: The R script used to perform the reading, writing, and cleaning of the data. 
+* CodeBook.md: Explains the data, variables, transformations, and work performed to clean up data
+* Run_Analysis.R: The R script used to perform the reading, writing, and cleaning of the data. 
 * Combined_data.txt: A cleaned data set from the original data source
 * Means_data.txt: The file for submission for the project. A tidy data file of the means and standard deviations of the combined data
 
