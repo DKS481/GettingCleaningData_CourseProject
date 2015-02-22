@@ -11,17 +11,16 @@ Descritions:
 * Means_data.txt: The file for submission for the project. A tidy data file of the means and standard deviations of the combined data
 
 
-Connections
------------
-
-Explanation of how all of the scripts work and how they are connected:
+How To Read Data
+------------------
 
 1) Unzip data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and rename as "data".
-* Ensure "data" and  run_analysis.R script are in the current working directory.
 
-2) Use source("run_analysis.R") command in RStudio.
+2) Ensure "data" and  run_analysis.R script are in the current working directory.
 
-3) Find the two output files generated in the current working directory:merged_data.txt and data_with_Means.txt
+3) Use source("run_analysis.R") command in RStudio.
+
+4) Find the two output files generated in the current working directory:merged_data.txt and data_with_Means.txt
 *  combined_data.txt contains a data frame called cleanedData.
 *  means_data.txt contains a data frame called result.
 
@@ -30,5 +29,7 @@ Explanation of how all of the scripts work and how they are connected:
 About
 -----
 Author: D Smith
+
 Project: Johns Hopkins Getting and Cleaning Data Coursera Course Project
+
 Date: 22 February 2015
