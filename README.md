@@ -9,8 +9,8 @@ Explanation of how all of the scripts work and how they are connected:
 2) Use source("run_analysis.R") command in RStudio.
 
 3) Find the two output files generated in the current working directory:merged_data.txt and data_with_Means.txt
-*  merged_data.txt contains a data frame called cleanedData.
-*  data_with_means.txt contains a data frame called result.
+*  combined_data.txt contains a data frame called cleanedData.
+*  means_data.txt contains a data frame called result.
 
-4) Use data <- read.table("data_with_means.txt") command in RStudio to read the file. 
+4) Use data <- read.table("means_data.txt") command in RStudio to read the file. 
  
