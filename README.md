@@ -1,5 +1,18 @@
 
-###Johns Hopkins Getting and Cleaning Data Coursera Course Project
+Johns Hopkins Getting and Cleaning Data Coursera Course Project
+===============================================================
+
+This repo contains the files and folders for the course project turn in.
+
+Descritions:
+* CodeBook: Explains the data, variables, transformations, and work performed to clean up data
+* Run_Analysis: The R script used to perform the reading, writing, and cleaning of the data. 
+* Combined_data.txt: A cleaned data set from the original data source
+* Means_data.txt: The file for submission for the project. A tidy data file of the means and standard deviations of the combined data
+
+
+Connections
+-----------
 
 Explanation of how all of the scripts work and how they are connected:
 
@@ -14,3 +27,8 @@ Explanation of how all of the scripts work and how they are connected:
 
 4) Use data <- read.table("means_data.txt") command in RStudio to read the file. 
  
+About
+-----
+Author: D Smith
+Project: Johns Hopkins Getting and Cleaning Data Coursera Course Project
+Date: 22 February 2015
