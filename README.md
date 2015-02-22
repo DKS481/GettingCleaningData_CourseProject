@@ -20,7 +20,7 @@ How To Read Data
 
 3) Use source("run_analysis.R") command in RStudio.
 
-4) Find the two output files generated in the current working directory:merged_data.txt and data_with_Means.txt
+4) Find the two output files generated in the current working directory:combined_data.txt and means_data.txt
 *  combined_data.txt contains a data frame called cleanedData.
 *  means_data.txt contains a data frame called result.
 
