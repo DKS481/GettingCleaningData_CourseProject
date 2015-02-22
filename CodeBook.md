@@ -63,5 +63,7 @@ Part 12: Output the merged  and the independent tidy data sets.
 About
 ---------------
 Author: D Smith
+
 Project: Johns Hopkins Getting and Cleaning Data Coursera Course Project
+
 Date: 22 Fenruary 2015
